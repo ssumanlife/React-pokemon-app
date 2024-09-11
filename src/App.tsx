@@ -4,6 +4,7 @@ import MainPage from "./pages/MainPage/index"
 import DetailPage from "./pages/DetailPage/index"
 import LoginPage from "./pages/LoginPage"
 import NavBar from "./components/NavBar"
+import { v4 } from "uuid"
 
 const Layout = () => {
   return (

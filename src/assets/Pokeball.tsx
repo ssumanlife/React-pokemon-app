@@ -1,7 +1,7 @@
-// import { ClassNameProps } from "../types/ClassNameProps";
+import { ClassNameProps } from "../types/ClassNameProps."
 
-export const Pokeball = () => (
-  <svg viewBox="0 0 208 208" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+export const Pokeball = ({ className: CN }: ClassNameProps) => (
+  <svg viewBox="0 0 208 208" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className={CN}>
     <g opacity="0.1">
       <path
         d="M128.762 104C128.762 117.676 117.676 128.762 104 128.762C90.3244 128.762 79.2381 117.676 79.2381 104C79.2381 90.3243 90.3244 79.2381 104 79.2381C117.676 79.2381 128.762 90.3243 128.762 104Z"
